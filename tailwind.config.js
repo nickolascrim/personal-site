@@ -8,7 +8,7 @@ module.exports = {
 
       fontFamily: {
         sans: [ 
-        "Graphik", 
+        "Basic sans", 
         "Helvetica Neue", 
         "helvetica", 
         "Apple Color Emoji", 
