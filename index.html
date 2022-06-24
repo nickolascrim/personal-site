@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
 
 <head>
   <meta charset="utf-8">
@@ -8,7 +8,7 @@
 
   <title>Nickolas Crim</title>
 
-  <!-- 
+  <!--
   <meta name="description" content="A simple HTML5 Template for new projects.">
   <meta name="author" content="SitePoint">
 
@@ -26,42 +26,80 @@
 
   <link rel="stylesheet" href="dist/output.css">
 
-
 </head>
 
-<body class="bg-white container mx-auto max-w-4xl">
-  <header class="flex flex-row content-center items-center justify-between p-6 border-b-2 border-slate-200"> 
-    <h2 class="text-lg text-slate-700 font-bold"><a href="../index.html">Nickolas Crim </a></h2>
+<body class="bg-white container mx-auto max-w-5xl">
+  <header class="flex flex-row content-center items-center justify-between p-6 mt-3 border-2 border-slate-200 shadow-md shadow-slate-200">
+    <h2 class="text-lg text-slate-600 font-bold"><a href="../index.html">Nickolas Crim </a></h2>
       <nav class="w-1/3">
         <ul class="md:flex flex-row content-center justify-evenly">
-          <li><a class="text-lg font-light text-slate-500 hover:text-sky-600" href="./pages/hire.html">Hire</a></li>
-          <li><a class="text-lg font-light text-slate-500 hover:text-sky-600" href="https://crim.substack.com/">Blog</a></li>
+          <li><a class="text-lg font-light text-slate-500 hover:text-sky-600" href="#essays-section">Essays</a></li>
           <li><a class="text-lg font-light text-slate-500 hover:text-sky-600" href="https://twitter.com/nickolascrim">Twitter</a></li>
+          <li><a class="text-lg font-light text-slate-500 hover:text-sky-600" href="https://www.linkedin.com/in/nickolascrim/">LinkedIn</a></li>
         </ul>
       </nav>
 
   </header>
   <main class="px-6 py-12">
 
-        <p class="text-3xl font-light text-slate-600 pb-6">
-          Hi I'm Nickolas! Freelancer, curious human, and interested in too many things to list. This small piece of the web exists to share my work, projects, ideas, and other interesting things I discover.
+        <h2 class="text-4xl font-medium text-slate-600 pb-6">About me</h2>
+
+        <p class="text-2xl font-light text-slate-600 pb-6">
+          Hey I'm Nickolas! Husband, father, introvert, freelancer, writer, and interested in too many things to list (Barbara Sher coined us Scanners). This small piece of the web serves as a launch pad for my projects, ideas, and other interesting things I discover.
         </p>
-        <p class="text-3xl font-light text-slate-600 pb-6">
-         Currently <a class="text-slate-700 font-normal hover:text-sky-600" href="./pages/hire.html">I'm avaliable for hire</a> for freelance web design and development projects. I've built websites for numerous businesses and creative agencies using modern web standards and popular tools like <a class="text-slate-600 font-normal hover:text-sky-600" href="https://www.wordpress.org/">Wordpress</a> and <a class="text-slate-600 font-normal hover:text-sky-600" href="https://www.webflow.com/">Webflow</a>. This website was built using HTML5 and <a class="text-slate-600 font-normal hover:text-sky-600" href="https://tailwindcss.com">Tailwindcss</a> and deployed on <a class="text-slate-600 font-normal hover:text-sky-600" href="https://www.netlify.com/">Netlify</a>. 
+        <p class="text-2xl font-light text-slate-600 pb-6">
+         Currently <a class="text-slate-700 font-normal hover:text-sky-600" href="">I'm avaliable for hire</a> for freelance web design and development projects. I've built websites for numerous businesses and creative agencies using modern web standards and popular tools like <a class="text-slate-600 font-normal hover:text-sky-600" href="https://www.wordpress.org/">Wordpress</a> and <a class="text-slate-600 font-normal hover:text-sky-600" href="https://www.webflow.com/">Webflow</a>. This website was built using HTML5 and <a class="text-slate-600 font-normal hover:text-sky-600" href="https://tailwindcss.com">Tailwindcss</a> and deployed on <a class="text-slate-600 font-normal hover:text-sky-600" href="https://www.netlify.com/">Netlify</a>.
         </p>
-         <p class="text-3xl font-light text-slate-600 pb-6">
-         My skills continue to evolve and I enjoy the level of problem solving required to build things on the web. I'm not afraid to roll up my sleeves, tackle challenging technical problems, and figure things out. 
+        <p class="text-2xl font-light text-slate-600 pb-6">
+         My days are spent in a variety of ways: reading, learning, thinking, walking, exercising, hanging out with my family, and working. My goal is to live a fulfilling life and pursue work that supports my life.
         </p>
-         <p class="text-3xl font-light text-slate-600 pb-6">
-         Overall my life is good. My days are spent reading, walking, thinking, hanging out with my wife, and working. My goal is to live a fulfilling life and my definition and approach to work continue to evolve.
-        </p>
+
+
+        <div class="flex flex-col md:flex-row items-center w-full py-12" id="essays-section">
+
+          <div class="flex flex-col w-full md:w-1/2 md:pr-6">
+            <h2 class="text-4xl font-medium text-slate-600 pb-6">Essays</h2>
+            <p class="text-2xl font-light text-slate-600 pb-6">
+            Writing is something I enjoy and I share things I've written on Substack. You can subscribe right here.
+            </p>
+          </div>
+          <div class="flex w-full md:w-1/2 md:pl-6">
+            <!-- Substack widget begin -->
+            <iframe class="shadow-md shadow-slate-200" src="https://crim.substack.com/embed" width="100%" height="320" style="border:2px solid #e2e8f0; background:white;" frameborder="0" scrolling="no"></iframe>
+            <!-- Substack widget end -->
+          </div>
+        </div>
+
+
+        <div class="flex flex-col flex-col-reverse md:flex-row items-center w-full py-12">
+
+          <div class="flex w-full md:w-1/2 md:pr-6">
+            <!-- Calendly inline widget begin -->
+            <div class="calendly-inline-widget shadow-md shadow-slate-200" data-url="https://calendly.com/nickolasc/jam-sessions?hide_event_type_details=1" style="width:100%;height:450px;border:2px solid #e2e8f0"></div>
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+            <!-- Calendly inline widget end -->
+          </div>
+          <div class="flex flex-col w-full md:w-1/2 md:pl-6">
+            <h2 class="text-4xl font-medium text-slate-600 pb-6">Jam sessions</h2>
+              <p class="text-2xl font-light text-slate-600 pb-6">
+                I block off time on Thursdays and Fridays to make space for meaningful conversations. It can be reconnecting with someone or meeting someone new.
+              </p>
+              <p class="text-2xl font-light text-slate-600 pb-6">
+                You've heard of music jam sessions? These are like those, but we'll be jammin to ideas and insights.
+              </p>
+              <p class="text-2xl font-light text-slate-600 pb-6">
+                If you're interested, we can schedule a jam session using calendly.
+              </p>
+          </div>
+        </div>
 
   </main>
 
-  <footer class="flex flex-row content-center items-center justify-between p-6 border-t-2 border-slate-200"> 
+  <footer class="flex flex-row content-center items-center justify-between p-6 border-t-2 border-slate-200">
   </footer>
 
-  <script src="js/scripts.js"></script>
+  <script src="js/script.js"></script>
+
 </body>
 
 
