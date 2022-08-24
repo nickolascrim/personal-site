@@ -729,10 +729,6 @@ video {
   padding-bottom: 6rem;
 }
 
-.pr-8 {
-  padding-right: 2rem;
-}
-
 .pb-6 {
   padding-bottom: 1.5rem;
 }
@@ -766,8 +762,8 @@ video {
   line-height: 1.75rem;
 }
 
-.font-normal {
-  font-weight: 400;
+.font-semibold {
+  font-weight: 600;
 }
 
 .font-bold {
@@ -778,17 +774,12 @@ video {
   font-weight: 300;
 }
 
-.font-semibold {
-  font-weight: 600;
+.font-normal {
+  font-weight: 400;
 }
 
 .tracking-wide {
   letter-spacing: 0.025em;
-}
-
-.text-slate-800 {
-  --tw-text-opacity: 1;
-  color: rgb(30 41 59 / var(--tw-text-opacity));
 }
 
 .text-slate-700 {
